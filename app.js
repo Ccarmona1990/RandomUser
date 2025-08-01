@@ -54,7 +54,7 @@ const displayUser = async (person) => {
         //console.log(label);
         title.textContent = `My ${label} is`;
         // person[label] connects the dataset to the object property
-        info.textContent = person[label];
+        info.textContent = person[label]; 
 
         // removes the active color from all icons
         icons.forEach((icon)=>{icon.classList.remove('active')});
