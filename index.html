@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Style -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="/fontawesome-free-5.15.4-web/css/all.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-center">
+          <h1>Random User</h1>
+          <ul class="nav-links">
+            <li>
+              <a href="/js/js projects/MyJSprojects.html">MyJSprojects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="block bcg-black"></div>
+      <div class="block">
+        <div class="container">
+          <img
+            src="https://randomuser.me/api/portraits/women/49.jpg"
+            class="user-img"
+            alt="user "
+          />
+          <p class="user-title">Hi, My name is</p>
+          <p class="user-info">Rachel Welch</p>
+          <div class="values-list">
+            <!-- single icon -->
+            <button class="icon active" data-label="name">
+              <span class="far fa-user"></span>
+            </button>
+            <!-- end of icon -->
+            <!-- single icon -->
+            <button class="icon" data-label="email">
+              <span class="far fa-envelope-open"></span>
+            </button>
+            <!-- end of icon -->
+            <!-- single icon -->
+            <button class="icon" data-label="age">
+              <span class="far fa-calendar-times"></span>
+            </button>
+            <!-- end of icon -->
+            <!-- single icon -->
+            <button class="icon" data-label="street">
+              <span class="far fa-map"></span>
+            </button>
+            <!-- end of icon -->
+            <!-- single icon -->
+            <button class="icon" data-label="cell">
+              <span class="fas fa-phone"></span>
+            </button>
+            <!-- end of icon -->
+            <!-- single icon -->
+            <button class="icon" data-label="username">
+              <span class="fas fa-user-lock"></span>
+            </button>
+            <!-- end of icon -->
+          </div>
+          <button class="btn" type="button">random user</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
